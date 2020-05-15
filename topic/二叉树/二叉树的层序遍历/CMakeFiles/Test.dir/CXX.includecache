@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/文档/leetcode/二叉树的层序遍历/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+
