@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hanxinyan/文档/leetcode/二叉树的层序遍历/main.cpp" "/home/hanxinyan/文档/leetcode/二叉树的层序遍历/CMakeFiles/Test.dir/main.cpp.o"
+  "/home/hanxinyan/LeetCode/topic/BinaryTree/levelOrder/main.cpp" "/home/hanxinyan/LeetCode/topic/BinaryTree/levelOrder/CMakeFiles/Test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

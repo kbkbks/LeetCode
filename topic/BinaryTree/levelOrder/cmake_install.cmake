@@ -1,4 +1,4 @@
-# Install script for directory: /home/hanxinyan/文档/leetcode/二叉树的层序遍历
+# Install script for directory: /home/hanxinyan/LeetCode/topic/BinaryTree/levelOrder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hanxinyan/文档/leetcode/二叉树的层序遍历/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hanxinyan/LeetCode/topic/BinaryTree/levelOrder/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
