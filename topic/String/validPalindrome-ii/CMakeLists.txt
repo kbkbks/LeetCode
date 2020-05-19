@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 add_compile_options(-std=c++11)
-project(maxProduct)
+project(validPalindrome-ii)
 SET(CMAKE_BUILD_TYPE "Debug")
 #SET(CMAKE_CXX_FLAGS_DEBUG "-g -Wall") 
 set(SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
