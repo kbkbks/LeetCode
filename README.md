@@ -14,6 +14,7 @@
 ### 动态规划
 
 * [乘积最大子数组(maxProduct)](./topic/DynamicProgramming/maxProduct)
+* [最长回文子串(longestPalindrome)](./topic/DynamicProgramming/longestPalindrome)
 
 ### 字符串
 
