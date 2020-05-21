@@ -6,7 +6,6 @@
 
 * [两数之和](./topic/HashTable/两数之和)
 * [和为K的子数组(subarraySum)](./topic/HashTable/subarraySum)
-* [每个元音包含偶数次的最长子字符串(findTheLongestSubstring)](./topic/HashTable/findTheLongestSubstring)
 
 ### 二叉树
 
@@ -19,3 +18,7 @@
 ### 字符串
 
 * [验证回文字符串-ii(validPalindrome-ii)](./topic/String/validPalindrome-ii)
+
+### 前缀和
+
+* [每个元音包含偶数次的最长子字符串(findTheLongestSubstring)](./topic/PrefixSum/findTheLongestSubstring)
