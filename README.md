@@ -2,14 +2,15 @@
 
 ## 题目分类
 
-### 哈希表
+### 哈希映射
 
-* [两数之和](./topic/HashTable/两数之和)
-* [和为K的子数组(subarraySum)](./topic/HashTable/subarraySum)
+* [两数之和](./topic/HashMap/两数之和)
+* [和为K的子数组(subarraySum)](./topic/HashMap/subarraySum)
 
 ### 二叉树
 
 * [二叉树的层序遍历(levelOrder)](./topic/BinaryTree/levelOrder)
+* [从前序与中序遍历序列构造二叉树(buildTree)](./topic/BinaryTree/buildTree)
 
 ### 动态规划
 

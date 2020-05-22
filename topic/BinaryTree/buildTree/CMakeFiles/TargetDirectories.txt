@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/BinaryTree/buildTree/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/BinaryTree/buildTree/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/BinaryTree/buildTree/CMakeFiles/edit_cache.dir
