@@ -54,6 +54,14 @@ class Solution {
         return myBuildTree(preorder, inorder, 0, n - 1, 0, n - 1);
     }
 
+    void Delete(TreeNode *& node) {
+        if (node) {
+            Delete(node->left);
+            Delete(node->right);
+            delete node;
+        }
+    }
+
  private:
     unordered_map<int, int> index;
 };
@@ -63,6 +71,7 @@ int main() {
     vector<int> inorder{9, 3, 15, 20, 7};
     Solution solution;
     TreeNode * tree = solution.buildTree(preorder, inorder);
+    solution.Delete(tree);
 
     return 0;
 }
