@@ -28,3 +28,7 @@
 ### 滑动窗口
 
 * [最小覆盖子串(minWindow)](./topic/SlidingWindow/minWindow)
+
+### 二分查找
+
+* [寻找两个正序数组的中位数(findMedianSortedArrays)](./topic/BinarySearch/findMedianSortedArrays)
