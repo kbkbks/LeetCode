@@ -32,6 +32,7 @@
 ### 二分查找
 
 * [寻找两个正序数组的中位数(findMedianSortedArrays)](./topic/BinarySearch/findMedianSortedArrays)
+* [寻找重复数(findDuplicate)](./topic/BinarySearch/findDuplicate)
 
 ### 设计
 
