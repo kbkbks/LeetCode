@@ -17,6 +17,7 @@
 
 * [乘积最大子数组(maxProduct)](./topic/DynamicProgramming/maxProduct)
 * [最长回文子串(longestPalindrome)](./topic/DynamicProgramming/longestPalindrome)
+* [打家劫舍(rob)](./topic/DynamicProgramming/rob)
 
 ### 字符串
 
@@ -42,3 +43,4 @@
 ### 栈
 
 * [字符串解码(decodeString)](./topic/Stack/decodeString)
+* [柱状图中最大的矩形(largestRectangleArea)](./topic/Stack/largestRectangleArea)
