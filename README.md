@@ -45,3 +45,7 @@
 
 * [字符串解码(decodeString)](./topic/Stack/decodeString)
 * [柱状图中最大的矩形(largestRectangleArea)](./topic/Stack/largestRectangleArea)
+
+### 节日礼弹
+
+* [拥有最多糖果的孩子(kidsWithCandies)](./topic/HolidaySalute/kidsWithCandies)

@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/HolidaySalute/kidsWithCandies/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/HolidaySalute/kidsWithCandies/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/HolidaySalute/kidsWithCandies/CMakeFiles/edit_cache.dir
