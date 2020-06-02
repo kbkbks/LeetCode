@@ -45,10 +45,14 @@
 * [字符串解码(decodeString)](./topic/Stack/decodeString)
 * [柱状图中最大的矩形(largestRectangleArea)](./topic/Stack/largestRectangleArea)
 
+### 递归
+
+* [对称二叉树(isSymmetric)](./topic/Recursion/isSymmetric)
+
 ### 节日礼弹
 
 * [拥有最多糖果的孩子(kidsWithCandies)](./topic/HolidaySalute/kidsWithCandies)
 
-### 递归
+### 剑指OFFER
 
-* [对称二叉树(isSymmetric)](./topic/Recursion/isSymmetric)
+* [求1+2+…+n(sumNums)](./topic/CodingInterviews/sumNums)
