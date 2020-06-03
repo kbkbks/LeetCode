@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/new21Game/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/new21Game/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/new21Game/CMakeFiles/edit_cache.dir
