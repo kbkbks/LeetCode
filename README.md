@@ -50,6 +50,10 @@
 
 * [对称二叉树(isSymmetric)](./topic/Recursion/isSymmetric)
 
+### 数组
+
+* [除自身以外数组的乘积(productExceptSelf)](./topic/Array/productExceptSelf)
+
 ### 节日礼弹
 
 * [拥有最多糖果的孩子(kidsWithCandies)](./topic/HolidaySalute/kidsWithCandies)
