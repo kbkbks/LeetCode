@@ -53,6 +53,7 @@
 ### 数组
 
 * [除自身以外数组的乘积(productExceptSelf)](./topic/Array/productExceptSelf)
+* [顺时针打印矩阵(spiralOrder)](./topic/Array/spiralOrder)
 
 ### 节日礼弹
 
