@@ -59,6 +59,10 @@
 
 * [单词接龙II(findLadders)_未完成_](./topic/BreadthFirstSearch)
 
+### 并查集
+
+* [等式方程的可满足性(equationsPossible)](./topic/UnionFind/equationsPossible)
+
 ### 节日礼弹
 
 * [拥有最多糖果的孩子(kidsWithCandies)](./topic/HolidaySalute/kidsWithCandies)
