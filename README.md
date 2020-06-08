@@ -61,7 +61,7 @@
 
 ### 并查集
 
-* [等式方程的可满足性(equationsPossible)](./topic/UnionFind/equationsPossible)
+* [等式方程的可满足性(equationsPossible)_未完成_](./topic/UnionFind/equationsPossible)
 
 ### 节日礼弹
 

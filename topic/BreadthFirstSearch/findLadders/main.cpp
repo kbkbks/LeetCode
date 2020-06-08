@@ -11,6 +11,12 @@
 
 using namespace std;
 
+/*
+ * 程序未完成，对于同一层上的单词，无法重复读取同一个邻接单词
+ * （事实要求需要重复读取，并保留多个prev）
+ * 
+ */
+
 class Solution {
  public:
     // 最短路径（广度优先搜索）
@@ -122,7 +128,7 @@ class Solution {
                     // 取出当前队列的头节点
                     string currentWord = wordQu.front();
                     wordQu.pop();
-                    visited[currentWord] = true;
+                    // visited[currentWord] = true;
                     // tmp.push_back(currentWord);     // 记录层序单词
                     for (auto adj : AdjacencyList[currentWord]) {
                         if (!visited[adj]) {
@@ -140,7 +146,7 @@ class Solution {
                             }
                             wordQu.push(adj);
                             if (adj != endWord) {
-                                // visited[adj] = true;
+                                visited[adj] = true;
                             }
                         }
                     }
@@ -165,12 +171,12 @@ class Solution {
 };
 
 int main() {
-    string beginWord = {"magic"};
-    string endWord = {"pearl"};
-    // vector<string> wordList = {"hot", "dot", "dog", "lot", "log", "cog"};
+    string beginWord = {"hit"};
+    string endWord = {"cog"};
+    vector<string> wordList = {"hot", "dot", "dog", "lot", "log", "cog"};
     // vector<string> wordList = {"hot", "dot", "dog", "lot", "log"};
     // vector<string> wordList = {"hot", "dog", "dot"};
-    vector<string> wordList = {"flail","halon","lexus","joint","pears","slabs","lorie","lapse","wroth","yalow","swear","cavil","piety","yogis","dhaka","laxer","tatum","provo","truss","tends","deana","dried","hutch","basho","flyby","miler","fries","floes","lingo","wider","scary","marks","perry","igloo","melts","lanny","satan","foamy","perks","denim","plugs","cloak","cyril","women","issue","rocky","marry","trash","merry","topic","hicks","dicky","prado","casio","lapel","diane","serer","paige","parry","elope","balds","dated","copra","earth","marty","slake","balms","daryl","loves","civet","sweat","daley","touch","maria","dacca","muggy","chore","felix","ogled","acids","terse","cults","darla","snubs","boats","recta","cohan","purse","joist","grosz","sheri","steam","manic","luisa","gluts","spits","boxer","abner","cooke","scowl","kenya","hasps","roger","edwin","black","terns","folks","demur","dingo","party","brian","numbs","forgo","gunny","waled","bucks","titan","ruffs","pizza","ravel","poole","suits","stoic","segre","white","lemur","belts","scums","parks","gusts","ozark","umped","heard","lorna","emile","orbit","onset","cruet","amiss","fumed","gelds","italy","rakes","loxed","kilts","mania","tombs","gaped","merge","molar","smith","tangs","misty","wefts","yawns","smile","scuff","width","paris","coded","sodom","shits","benny","pudgy","mayer","peary","curve","tulsa","ramos","thick","dogie","gourd","strop","ahmad","clove","tract","calyx","maris","wants","lipid","pearl","maybe","banjo","south","blend","diana","lanai","waged","shari","magic","duchy","decca","wried","maine","nutty","turns","satyr","holds","finks","twits","peaks","teems","peace","melon","czars","robby","tabby","shove","minty","marta","dregs","lacks","casts","aruba","stall","nurse","jewry","knuth"};
+    // vector<string> wordList = {"flail","halon","lexus","joint","pears","slabs","lorie","lapse","wroth","yalow","swear","cavil","piety","yogis","dhaka","laxer","tatum","provo","truss","tends","deana","dried","hutch","basho","flyby","miler","fries","floes","lingo","wider","scary","marks","perry","igloo","melts","lanny","satan","foamy","perks","denim","plugs","cloak","cyril","women","issue","rocky","marry","trash","merry","topic","hicks","dicky","prado","casio","lapel","diane","serer","paige","parry","elope","balds","dated","copra","earth","marty","slake","balms","daryl","loves","civet","sweat","daley","touch","maria","dacca","muggy","chore","felix","ogled","acids","terse","cults","darla","snubs","boats","recta","cohan","purse","joist","grosz","sheri","steam","manic","luisa","gluts","spits","boxer","abner","cooke","scowl","kenya","hasps","roger","edwin","black","terns","folks","demur","dingo","party","brian","numbs","forgo","gunny","waled","bucks","titan","ruffs","pizza","ravel","poole","suits","stoic","segre","white","lemur","belts","scums","parks","gusts","ozark","umped","heard","lorna","emile","orbit","onset","cruet","amiss","fumed","gelds","italy","rakes","loxed","kilts","mania","tombs","gaped","merge","molar","smith","tangs","misty","wefts","yawns","smile","scuff","width","paris","coded","sodom","shits","benny","pudgy","mayer","peary","curve","tulsa","ramos","thick","dogie","gourd","strop","ahmad","clove","tract","calyx","maris","wants","lipid","pearl","maybe","banjo","south","blend","diana","lanai","waged","shari","magic","duchy","decca","wried","maine","nutty","turns","satyr","holds","finks","twits","peaks","teems","peace","melon","czars","robby","tabby","shove","minty","marta","dregs","lacks","casts","aruba","stall","nurse","jewry","knuth"};
     Solution solution;
     vector<vector<string>> result = solution.findLadders(beginWord, endWord, wordList);
 
