@@ -63,6 +63,10 @@
 
 * [等式方程的可满足性(equationsPossible)_未完成_](./topic/UnionFind/equationsPossible)
 
+### 数学相关
+
+* [回文数(isPalindrome)](./topic/Math/isPalindrome)
+
 ### 节日礼弹
 
 * [拥有最多糖果的孩子(kidsWithCandies)](./topic/HolidaySalute/kidsWithCandies)

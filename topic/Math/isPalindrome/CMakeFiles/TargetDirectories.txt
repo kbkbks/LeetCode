@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Math/isPalindrome/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Math/isPalindrome/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Math/isPalindrome/CMakeFiles/edit_cache.dir
