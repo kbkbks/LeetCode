@@ -20,6 +20,7 @@
 * [最长回文子串(longestPalindrome)](./topic/DynamicProgramming/longestPalindrome)
 * [打家劫舍(rob)](./topic/DynamicProgramming/rob)
 * [新21点(new21Game)](./topic/DynamicProgramming/new21Game)
+* [爬楼梯(climbStairs)](./topic/DynamicProgramming/climbStairs)
 
 ### 字符串
 
