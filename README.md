@@ -38,6 +38,7 @@
 
 * [寻找两个正序数组的中位数(findMedianSortedArrays)](./topic/BinarySearch/findMedianSortedArrays)
 * [寻找重复数(findDuplicate)](./topic/BinarySearch/findDuplicate)
+* [转变数组后最接近目标值的数组和(findBestValue)](./topic/BinarySearch/findBestValue)
 
 ### 设计
 
