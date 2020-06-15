@@ -20,11 +20,12 @@
 * [最长回文子串(longestPalindrome)](./topic/DynamicProgramming/longestPalindrome)
 * [打家劫舍(rob)](./topic/DynamicProgramming/rob)
 * [新21点(new21Game)](./topic/DynamicProgramming/new21Game)
-* [爬楼梯(climbStairs)](./topic/DynamicProgramming/climbStairs)
+* [爬楼梯(climbStairs)_未完成_](./topic/DynamicProgramming/climbStairs)
 
 ### 字符串
 
 * [验证回文字符串-ii(validPalindrome-ii)](./topic/String/validPalindrome-ii)
+* [最长公共前缀(longestCommonPrefix)_未完成_](./topic/String/longestCommonPrefix)
 
 ### 前缀和
 
@@ -38,7 +39,7 @@
 
 * [寻找两个正序数组的中位数(findMedianSortedArrays)](./topic/BinarySearch/findMedianSortedArrays)
 * [寻找重复数(findDuplicate)](./topic/BinarySearch/findDuplicate)
-* [转变数组后最接近目标值的数组和(findBestValue)](./topic/BinarySearch/findBestValue)
+* [转变数组后最接近目标值的数组和(findBestValue)_未完成_](./topic/BinarySearch/findBestValue)
 
 ### 设计
 
