@@ -64,6 +64,10 @@
 
 * [单词接龙II(findLadders)_未完成_](./topic/BreadthFirstSearch)
 
+### 深度优先探索
+
+* [二叉树的序列化与反序列化(serializeAndDeserialize)_未完成_](./topic/DepthFirstSearch/serializeAndDeserialize)
+
 ### 并查集
 
 * [等式方程的可满足性(equationsPossible)_未完成_](./topic/UnionFind/equationsPossible)
