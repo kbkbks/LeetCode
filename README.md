@@ -59,6 +59,7 @@
 
 * [除自身以外数组的乘积(productExceptSelf)](./topic/Array/productExceptSelf)
 * [三数之和(threeSum)_未完成_](./topic/Array/threeSum)
+* [最佳观光组合(maxScoreSightseeingPair)_未完成_](./topic/Array/maxScoreSigntseeingPair)
 
 ### 广度优先搜索
 
