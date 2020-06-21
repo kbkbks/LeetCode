@@ -71,6 +71,7 @@
 
 * [二叉树的序列化与反序列化(serializeAndDeserialize)_未完成_](./topic/DepthFirstSearch/serializeAndDeserialize)
 * [从先序遍历还原二叉树(recoverFromPreorder)_未完成_](./topic/DepthFirstSearch/recoverFromPreorder)
+* [深度优先搜索(maxPathSum)_未完成_](./topic/DepthFirstSearch/maxPathSum)
 
 ### 并查集
 
