@@ -28,6 +28,7 @@
 * [验证回文字符串-ii(validPalindrome-ii)](./topic/String/validPalindrome-ii)
 * [最长公共前缀(longestCommonPrefix)_未完成_](./topic/String/longestCommonPrefix)
 * [验证回文串(isPalindrome)](./topic/String/isPalindrome)
+* [二进制求和(addBinary)](./topic/String/addBinary)
 
 ### 前缀和
 
