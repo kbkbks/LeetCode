@@ -65,6 +65,7 @@
 * [三数之和(threeSum)_未完成_](./topic/Array/threeSum)
 * [最佳观光组合(maxScoreSightseeingPair)_未完成_](./topic/Array/maxScoreSigntseeingPair)
 * [最接近的三数之和(threeSumClosest)](./topic/Array/threeSumClosest)
+* [长度最小的子数组(minSubArrayLen)](./topic/Array/minSubArrayLen)
 
 ### 广度优先搜索
 
