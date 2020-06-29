@@ -55,6 +55,10 @@
 * [柱状图中最大的矩形(largestRectangleArea)_未完成_](./topic/Stack/largestRectangleArea)
 * [每日温度(dailyTemperatures)_未完成_](./topic/Stack/dailyTemperatures)
 
+### 堆
+
+* [数组中的第K个最大元素(findKthLargest)](./topic/Heap/findKthLargest)
+
 ### 递归
 
 * [对称二叉树(isSymmetric)](./topic/Recursion/isSymmetric)
