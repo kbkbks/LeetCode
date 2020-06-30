@@ -102,6 +102,7 @@
 * [求1+2+…+n(sumNums)](./topic/CodingInterviews/sumNums)
 * [顺时针打印矩阵(spiralOrder)](./topic/CodingInterviews/spiralOrder)
 * [把数字翻译成字符串(translateNum)_未完成_](./topic/CodingInterviews/translateNum)
+* [用两个栈实现列队(CQueue)](./topic/CodingInterviews/CQueue)
 
 ### 程序员面试金典
 
