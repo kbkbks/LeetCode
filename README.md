@@ -23,6 +23,7 @@
 * [新21点(new21Game)](./topic/DynamicProgramming/new21Game)
 * [爬楼梯(climbStairs)_未完成_](./topic/DynamicProgramming/climbStairs)
 * [正则表达式匹配(isMatch)_未完成_](./topic/DynamicProgramming/isMatch)
+* [最长重复子数组(findLength)](./topic/DynamicProgramming/findLength)
 
 ### 字符串
 
