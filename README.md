@@ -16,6 +16,7 @@
 * [从前序与中序遍历序列构造二叉树(buildTree)](./topic/BinaryTree/buildTree)
 * [二叉树的前序遍历(preorderTraversal)](./topic/BinaryTree/preorderTraversal)
 * [二叉树的中序遍历(inorderTraversal)](./topic/BinaryTree/inorderTraversal)
+* [二叉树的前序遍历(postorderTraversal)](./topic/BinaryTree/postorderTraversal)
 
 ### 动态规划
 
