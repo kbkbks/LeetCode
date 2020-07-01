@@ -14,6 +14,7 @@
 
 * [二叉树的层序遍历(levelOrder)](./topic/BinaryTree/levelOrder)
 * [从前序与中序遍历序列构造二叉树(buildTree)](./topic/BinaryTree/buildTree)
+* [二叉树的前序遍历(preorderTraversal)](./topic/BinaryTree/preorderTraversal)
 
 ### 动态规划
 
