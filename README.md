@@ -62,6 +62,7 @@
 ### 堆
 
 * [数组中的第K个最大元素(findKthLargest)](./topic/Heap/findKthLargest)
+* [有序矩阵中第k小的元素(kthSmallest)](./topic/Heap/kthSmallest)
 
 ### 递归
 
