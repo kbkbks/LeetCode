@@ -18,6 +18,7 @@
 * [二叉树的中序遍历(inorderTraversal)](./topic/BinaryTree/inorderTraversal)
 * [二叉树的前序遍历(postorderTraversal)](./topic/BinaryTree/postorderTraversal)
 * [将有序数组转化为二叉搜索树(sortedArrayToBST)](./topic/BinaryTree/sortedArrayToBST)
+* [将二叉搜索树变平衡(banlanceBST)](./topic/BinaryTree/balanceBST)
 
 ### 动态规划
 
