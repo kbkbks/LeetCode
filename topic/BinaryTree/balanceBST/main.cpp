@@ -22,10 +22,41 @@ struct TreeNode {
 
 class Solution {
  public:
-    // 贪心构造
-    TreeNode* balanceBST(TreeNode* root) {
-        
+    // 中序遍历
+    void getInorder(TreeNode * node) {
+        if (!node) {
+            return;
+        }
+
+        if (node->left) {
+            getInorder(node->left);
+        }
+        inorderSeq.push_back(node->val);
+        if (node->right) {
+            getInorder(node->right);
+        }
     }
+
+    // 贪心构造
+    TreeNode * build(int leftSide, int rightSide) {
+        int mid = (leftSide + rightSide) / 2;
+        TreeNode * node = new TreeNode(inorderSeq[mid]);
+        if (leftSide <= mid - 1) {
+            node->left = build(leftSide, mid - 1);
+        }
+        if (mid + 1 <= rightSide) {
+            node->right = build(mid + 1, rightSide);
+        }
+        return node;
+    }
+
+    TreeNode* balanceBST(TreeNode* root) {
+        getInorder(root);
+        return build(0, inorderSeq.size() - 1);
+    }
+
+ private:
+    vector<int> inorderSeq;
 };
 
 class BiTree {
@@ -109,5 +140,6 @@ int main() {
     TreeNode * result = solution.balanceBST(root);
 
     biTree.Delete(root);
+    biTree.Delete(result);
     return 0;
 }
