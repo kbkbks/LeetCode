@@ -5,6 +5,7 @@
 #include <vector>
 #include <queue>
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -54,19 +55,59 @@ class BiTree {
             delete node;
         }
     }
+
+    TreeNode * creatTree(string nodeList) {
+        // string格式化分割成vector<string>
+        queue<string> input;
+        stringstream ss(nodeList);
+        string tmp;
+        while (getline(ss, tmp, ',')) {
+            input.push(tmp);
+        }
+
+        string node = input.front();
+        input.pop();
+        TreeNode * root;
+        if (node != "null") {
+            root = new TreeNode(stoi(node));
+            string nodeLeft = input.front();
+            input.pop();
+            string nodeRignt = input.front();
+            input.pop();
+            root->left = buildTree(nodeLeft, input);
+            root->right = buildTree(nodeRignt, input);
+        } else {
+            return nullptr;
+        }
+        return root;
+    }
+
+    TreeNode * buildTree(string node, queue<string> &input) {
+        if (node != "null") {
+            TreeNode * newNode = new TreeNode(stoi(node));
+            string nodeLeft = input.front();
+            input.pop();
+            string nodeRignt = input.front();
+            input.pop();
+            newNode->left = buildTree(nodeLeft, input);
+            newNode->right = buildTree(nodeRignt, input);
+            return newNode;
+        } else {
+            return nullptr;
+        }
+    }
 };
 
 int main() {
-    // TreeNode * root;
-    // BiTree biTree;
-    // biTree.create_BTree(root);
+    // string常规建树
+    string nodeList{"1,null,2,null,3,null,4,null,null"};
+    BiTree biTree;
+    TreeNode * root = biTree.creatTree(nodeList);
 
-    vector<int> nums{-10, -3, 0, 5, 9};
-
+    // 将二叉树变平衡
     Solution solution;
-    TreeNode * result = solution.sortedArrayToBST(nums);
-    solution.newDelete(result);
+    TreeNode * result = solution.balanceBST(root);
 
+    biTree.Delete(root);
     return 0;
-    // biTree.Delete(root);
 }
