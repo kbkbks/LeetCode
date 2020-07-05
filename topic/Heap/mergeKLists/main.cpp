@@ -6,6 +6,7 @@
 #include <unordered_map>
 #include <algorithm>
 #include <map>
+#include <queue>
 
 using namespace std;
 
@@ -26,6 +27,15 @@ struct ListNode {
 
 class Solution {
  public:
+    struct Status {
+        int val;
+        ListNode * ptr;
+        // Functional比较方式，小根堆
+        bool operator < (const Status &rhs) const {
+            return val > rhs.val;
+        }
+    };
+
     void createList(ListNode * head, vector<int> xLists) {
         ListNode * p = head;
         for (auto &x : xLists) {
@@ -35,28 +45,28 @@ class Solution {
         }
     }
 
-    ListNode * mergeTwoLists(ListNode * a, ListNode * b) {
-        if ((!a) || (!b)) {
-            return a ? a : b;
-        }
+    // ListNode * mergeTwoLists(ListNode * a, ListNode * b) {
+    //     if ((!a) || (!b)) {
+    //         return a ? a : b;
+    //     }
 
-        ListNode head(0);
-        ListNode * tail = &head;
-        ListNode * aPtr = a, * bPtr = b;
-        while (aPtr && bPtr) {
-            if (aPtr->val < bPtr->val) {
-                tail->next = aPtr;
-                aPtr = aPtr->next;
-            } else {
-                tail->next = bPtr;
-                bPtr = bPtr->next;
-            }
-            tail = tail->next;
-        }
-        tail->next = (aPtr ? aPtr : bPtr);
+    //     ListNode head(0);
+    //     ListNode * tail = &head;
+    //     ListNode * aPtr = a, * bPtr = b;
+    //     while (aPtr && bPtr) {
+    //         if (aPtr->val < bPtr->val) {
+    //             tail->next = aPtr;
+    //             aPtr = aPtr->next;
+    //         } else {
+    //             tail->next = bPtr;
+    //             bPtr = bPtr->next;
+    //         }
+    //         tail = tail->next;
+    //     }
+    //     tail->next = (aPtr ? aPtr : bPtr);
 
-        return head.next;
-    }
+    //     return head.next;
+    // }
 
     // // 暴力合并（顺序合并）
     // ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -68,21 +78,45 @@ class Solution {
     //     return ans;
     // }
 
-    // 分治合并
-    ListNode * merge(vector<ListNode*>& lists, int l, int r) {
-        if (l == r) {
-            return lists[l];
+    // // 分治合并
+    // ListNode * merge(vector<ListNode*>& lists, int l, int r) {
+    //     if (l == r) {
+    //         return lists[l];
+    //     }
+    //     if (l > r) {
+    //         return nullptr;
+    //     }
+    //     int mid = (l + r) / 2;
+    //     return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
+    // }
+    // // 分治合并
+    // ListNode* mergeKLists(vector<ListNode*>& lists) {
+    //     return merge(lists, 0, lists.size() - 1);
+    // }
+
+    // 优先队列合并（小根堆）
+    ListNode * mergeKLists(vector<ListNode*>& lists) {
+        for (auto pnode : lists) {
+            if (pnode) {
+                qu.push({pnode->val, pnode});
+            }
         }
-        if (l > r) {
-            return nullptr;
+        ListNode head(0);
+        ListNode *tail = &head;
+        while (!qu.empty()) {
+            auto tmp = qu.top();
+            qu.pop();
+            tail->next = tmp.ptr;
+            tail = tail->next;
+            if (tmp.ptr->next) {
+                qu.push({tmp.ptr->next->val, tmp.ptr->next});
+            }
         }
-        int mid = (l + r) / 2;
-        return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
+        return head.next;
     }
-    // 分治合并
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        return merge(lists, 0, lists.size() - 1);
-    }
+
+ private:
+    priority_queue<Status> qu;
 };
 
 int main() {
