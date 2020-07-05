@@ -69,7 +69,19 @@ class Solution {
     // }
 
     // 分治合并
+    ListNode * merge(vector<ListNode*>& lists, int l, int r) {
+        if (l == r) {
+            return lists[l];
+        }
+        if (l > r) {
+            return nullptr;
+        }
+        int mid = (l + r) / 2;
+        return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
+    }
+    // 分治合并
     ListNode* mergeKLists(vector<ListNode*>& lists) {
+        return merge(lists, 0, lists.size() - 1);
     }
 };
 
