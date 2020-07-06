@@ -31,7 +31,7 @@
 * [最长重复子数组(findLength)](./topic/DynamicProgramming/findLength)
 * [最长有效括号(longestValidParentheses)_未完成_](./topic/DynamicProgramming/longestValidParentheses)
 * [通配符匹配(isMatch2)_未完成_](./topic/DynamicProgramming/isMatch2)
-* [不同路径(uniquePathsWithObstacles)](./topic/DynamicProgramming/uniquePathsWithObstacles)
+* [不同路径II(uniquePathsWithObstacles)](./topic/DynamicProgramming/uniquePathsWithObstacles)
 
 ### 字符串
 
