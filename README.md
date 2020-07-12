@@ -123,4 +123,4 @@
 * [模式匹配(patternMatching)_未完成_](./topic/CrackingTheCodingInterview/patternMatching)
 * [移除重复节点(removeDuplicateNodes)_未完成_](./topic/CrackingTheCodingInterview/removeDuplicateNodes)
 * [跳水板(divingBoard)__未完成](./topic/CrackingTheCodingInterview/divingBoard)
-* [恢复空格(respace)_未完成_](./topic/CrackingTheCodingInterview/respace)
+* [恢复空格(respace)](./topic/CrackingTheCodingInterview/respace)
