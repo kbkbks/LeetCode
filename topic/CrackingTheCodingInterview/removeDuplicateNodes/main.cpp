@@ -8,47 +8,45 @@
 
 using namespace std;
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    explicit ListNode(int x) : val(x), next(NULL) {}
+};
+
 class Solution {
  public:
-    // 常规解法，转化为字符串
-    bool isPalindrome(int x) {
-        string str = to_string(x);
-        for (int i = 0, j = str.size() - 1; i < j; ++i, --j) {
-            if (str[i] != str[j]) return false;
+    void createList(ListNode * head, vector<int> nodelist) {
+        ListNode * p = head;
+        for (int i = 1; i < nodelist.size(); ++i) {
+            ListNode * pNewNode = new ListNode(nodelist[i]);
+            p->next = pNewNode;
+            p = pNewNode;
         }
-
-        return true;
     }
 
-    // 不转化字符串，直接反转数字
-    bool isPalindrome(int x) {
-        // 特殊情况：
-        // 如上所述，当 x < 0 时，x 不是回文数。
-        // 同样地，如果数字的最后一位是 0，为了使该数字为回文，
-        // 则其第一位数字也应该是 0
-        // 只有 0 满足这一属性
-        if (x < 0 || (x % 10 == 0 && x != 0)) {
-            return false;
-        }
+    ListNode* removeDuplicateNodes(ListNode* head) {
+        ListNode * ans;
 
-        int revertedNumber = 0;
-        while (x > revertedNumber) {
-            revertedNumber = revertedNumber * 10 + x % 10;
-            x /= 10;
-        }
-
-        // 当数字长度为奇数时，我们可以通过 revertedNumber/10 去除处于中位的数字。
-        // 例如，当输入为 12321 时，在 while 循环的末尾我们可以得到 x = 12，revertedNumber = 123，
-        // 由于处于中位的数字不影响回文（它总是与自己相等），所以我们可以简单地将其去除。
-        return x == revertedNumber || x == revertedNumber / 10;
+        return ans;
     }
 };
 
 int main() {
-    int x = 10;
+    vector<int> nodelist{1, 2, 3, 3, 2, 1};
     Solution solution;
-    bool result = solution.isPalindrome(x);
-    cout << result << endl;
+    ListNode * head = new ListNode(nodelist[0]);
+    solution.createList(head, nodelist);
+    ListNode * result = solution.removeDuplicateNodes(head);
 
     return 0;
 }
