@@ -34,6 +34,7 @@
 * [通配符匹配(isMatch2)_未完成_](./topic/DynamicProgramming/isMatch2)
 * [不同路径II(uniquePathsWithObstacles)](./topic/DynamicProgramming/uniquePathsWithObstacles)
 * [最佳买卖股票时机含冷冻期(maxProfit)](./topic/DynamicProgramming/maxProfit)
+* [单词拆分(wordBreak)](./topic/DynamicProgramming/wordBreak)
 
 ### 字符串
 
