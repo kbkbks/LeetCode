@@ -5,6 +5,7 @@
 #include <vector>
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
 
 using namespace std;
 
@@ -27,7 +28,7 @@ class Solution {
  public:
     void createList(ListNode * head, vector<int> nodelist) {
         ListNode * p = head;
-        for (int i = 1; i < nodelist.size(); ++i) {
+        for (int i = 0; i < nodelist.size(); ++i) {
             ListNode * pNewNode = new ListNode(nodelist[i]);
             p->next = pNewNode;
             p = pNewNode;
@@ -35,16 +36,29 @@ class Solution {
     }
 
     ListNode* removeDuplicateNodes(ListNode* head) {
-        ListNode * ans;
-
-        return ans;
+        if (!head) {
+            return head;
+        }
+        unordered_set<int> set{head->val};
+        ListNode * pos = head;
+        while (pos->next) {
+            ListNode * cur = pos->next;
+            if (!set.count(cur->val)) {
+                set.insert(cur->val);
+                pos = pos->next;
+            } else {
+                pos->next = pos->next->next;
+            }
+        }
+        pos->next = nullptr;
+        return head;
     }
 };
 
 int main() {
     vector<int> nodelist{1, 2, 3, 3, 2, 1};
     Solution solution;
-    ListNode * head = new ListNode(nodelist[0]);
+    ListNode * head = new ListNode(0);
     solution.createList(head, nodelist);
     ListNode * result = solution.removeDuplicateNodes(head);
 
