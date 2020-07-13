@@ -9,6 +9,7 @@
 * [和可被K整除的子数组(subarrayDivByK)](./topic/HashMap/subarrayDivByK)
 * [最长连续序列(longestConsecutive)](./topic/HashMap/longestConsecutive)
 * [缺失的第一个正数(firstMissingPositive)_未完成_](./topic/HashMap/firstMissingPositive)
+* [两个数组的交集II(intersect)](./topic/HashMap/intersect)
 
 ### 二叉树
 
