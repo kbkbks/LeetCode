@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/minimumTotal/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/minimumTotal/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/minimumTotal/CMakeFiles/edit_cache.dir
