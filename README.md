@@ -93,7 +93,8 @@
 
 ### 广度优先搜索
 
-* [单词接龙II(findLadders)_未完成_](./topic/BreadthFirstSearch)
+* [单词接龙II(findLadders)_未完成_](./topic/BreadthFirstSearch/findLadders)
+* [判断二分图(isBipartite)](./topic/BreadthFirstSearch/isBipartite)
 
 ### 深度优先探索
 
