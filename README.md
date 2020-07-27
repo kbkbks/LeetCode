@@ -44,6 +44,7 @@
 * [最长公共前缀(longestCommonPrefix)_未完成_](./topic/String/longestCommonPrefix)
 * [验证回文串(isPalindrome)](./topic/String/isPalindrome)
 * [二进制求和(addBinary)](./topic/String/addBinary)
+* [判断子序列(isSubsequence)](./topic/String/isSubsequence)
 
 ### 前缀和
 

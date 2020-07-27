@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/String/isSubsequence/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/String/isSubsequence/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/String/isSubsequence/CMakeFiles/edit_cache.dir
