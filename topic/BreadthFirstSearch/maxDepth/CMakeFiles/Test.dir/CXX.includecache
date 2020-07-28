@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/BreadthFirstSearch/maxDepth/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+unordered_map
+-
+map
+-
+algorithm
+-
+unordered_set
+-
+sstream
+-
+
