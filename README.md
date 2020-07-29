@@ -37,6 +37,7 @@
 * [单词拆分(wordBreak)](./topic/DynamicProgramming/wordBreak)
 * [三角形最小路径和(minimumTotal)](./topic/DynamicProgramming/minimumTotal)
 * [除数博弈(divisorGame)](./topic/DynamicProgramming/divisorGame)
+* [最小路径和(minPathSum)](./topic/DynamicProgramming/minPathSum)
 
 ### 字符串
 
