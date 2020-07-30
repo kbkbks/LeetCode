@@ -46,6 +46,7 @@
 * [验证回文串(isPalindrome)](./topic/String/isPalindrome)
 * [二进制求和(addBinary)](./topic/String/addBinary)
 * [判断子序列(isSubsequence)](./topic/String/isSubsequence)
+* [分割平衡字符串(balancedStringSplit)](./topic/String/balancedStringSplit)
 
 ### 前缀和
 
