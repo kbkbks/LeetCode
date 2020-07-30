@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Math/integerBreak/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Math/integerBreak/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Math/integerBreak/CMakeFiles/edit_cache.dir

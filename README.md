@@ -117,6 +117,7 @@
 ### 数学相关
 
 * [回文数(isPalindrome)](./topic/Math/isPalindrome)
+* [整数拆分(integerBreak)](./topic/Math/integerBreak)
 
 ### 节日礼弹
 
