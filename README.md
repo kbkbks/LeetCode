@@ -61,6 +61,7 @@
 * [寻找重复数(findDuplicate)](./topic/BinarySearch/findDuplicate)
 * [转变数组后最接近目标值的数组和(findBestValue)_未完成_](./topic/BinarySearch/findBestValue)
 * [搜索插入位置(searchInsert)](./topic/BinarySearch/searchInsert)
+* [二分查找(search)](./topic/BinarySearch/search)
 
 ### 设计
 
