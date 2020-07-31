@@ -137,3 +137,4 @@
 * [移除重复节点(removeDuplicateNodes)](./topic/CrackingTheCodingInterview/removeDuplicateNodes)
 * [跳水板(divingBoard)](./topic/CrackingTheCodingInterview/divingBoard)
 * [恢复空格(respace)](./topic/CrackingTheCodingInterview/respace)
+* [魔术索引(findMagicIndex)](./topic/CrackingTheCodingInterview/findMagicIndex)

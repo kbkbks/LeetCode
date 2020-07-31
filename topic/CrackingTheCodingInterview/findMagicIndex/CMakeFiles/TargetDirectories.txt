@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/CrackingTheCodingInterview/findMagicIndex/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/CrackingTheCodingInterview/findMagicIndex/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/CrackingTheCodingInterview/findMagicIndex/CMakeFiles/edit_cache.dir
