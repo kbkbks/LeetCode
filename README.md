@@ -4,7 +4,7 @@
 
 ### 哈希映射
 
-* [两数之和](./topic/HashMap/两数之和)
+* [两数之和(twoSum)](./topic/HashMap/twoSum)
 * [和为K的子数组(subarraySum)](./topic/HashMap/subarraySum)
 * [和可被K整除的子数组(subarrayDivByK)](./topic/HashMap/subarrayDivByK)
 * [最长连续序列(longestConsecutive)](./topic/HashMap/longestConsecutive)
