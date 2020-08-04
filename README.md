@@ -131,6 +131,7 @@
 * [顺时针打印矩阵(spiralOrder)](./topic/CodingInterviews/spiralOrder)
 * [把数字翻译成字符串(translateNum)_未完成_](./topic/CodingInterviews/translateNum)
 * [用两个栈实现列队(CQueue)](./topic/CodingInterviews/CQueue)
+* [二维数组中的查找(findNumberIn2DArray)](./topic/CodingInterviews/findNumberIn2DArray)
 
 ### 程序员面试金典
 
