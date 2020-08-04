@@ -133,6 +133,8 @@
 * [用两个栈实现列队(CQueue)](./topic/CodingInterviews/CQueue)
 * [二维数组中的查找(findNumberIn2DArray)](./topic/CodingInterviews/findNumberIn2DArray)
 * [替换空格(replaceSpace)](./topic/CodingInterviews/replaceSpace)
+* [打印从 1 到最大的 n 位数(printNumbers)](./topic/CodingInterviews/printNumbers)
+
 
 ### 程序员面试金典
 

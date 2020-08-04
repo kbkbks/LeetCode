@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/CodingInterviews/printNumbers/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/CodingInterviews/printNumbers/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/CodingInterviews/printNumbers/CMakeFiles/edit_cache.dir
