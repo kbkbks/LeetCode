@@ -1,6 +1,7 @@
 /*
 # Copyright (c) 2020 Xinyan Han. All rights reserved.
 */
+#include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -10,74 +11,61 @@ using namespace std;
 class Solution {
  public:
     /**
-     * 暴力求解
+     *  双指针法，复杂度O(N)
      */
-    // int subarraySum(vector<int> &nums, int k)
-    // {
-    //     vector<vector<int>> result;
-
-    //     for(auto iter = nums.begin(); iter != nums.end(); ++iter)
-    //     {
-    //         vector<int> subarray{*iter};
-    //         int subSum = *iter;
-    //         if(subSum == k)
-    //         {
-    //             result.push_back(subarray);
-    //         }
-    //         for(auto it = iter + 1; it != nums.end(); ++it)
-    //         {
-    //             subarray.push_back(*it);
-    //             subSum += *it;
-    //             if(subSum == k)
-    //             {
-    //                 result.push_back(subarray);
-    //                 continue;
+    // vector<int> twoSum(vector<int>& nums, int target) {
+    //     vector<int> ans;
+    //     vector<int> index(nums);
+    //     int n = nums.size();
+    //     sort(nums.begin(), nums.end());
+    //     for (int i = 0, j = n - 1; i < j;) {
+    //         if (nums[i] + nums[j] > target) {
+    //             --j;
+    //         } else if (nums[i] + nums[j] < target) {
+    //             ++i;
+    //         } else if (nums[i] + nums[j] == target) {
+    //             for (int k = 0; k < n; ++k) {
+    //                 if (i < n && index[k] == nums[i]) {
+    //                     ans.push_back(k);
+    //                     i = n;
+    //                 } else if (j < n && index[k] == nums[j]) {
+    //                     ans.push_back(k);
+    //                     j = n;
+    //                 }
+    //                 if (i == n && j == n) break;
     //             }
+
+    //             break;
     //         }
     //     }
 
-    //     return result.size();
+    //     return ans;
     // }
 
     /**
-     * 暴力求解， 不使用容器
+     *  哈希法，复杂度O(N)
      */
-    // int subarraySum(vector<int> &nums, int k)
-    // {
-    //     int size = nums.size(), res = 0;
-    //     for (int i = 0; i < size; ++i) {
-    //         int sum = 0;
-    //         for (int j = i; j < size; ++j) {
-    //             sum += nums[j];
-    //             res += sum == k ? 1 : 0;
-    //         }
-    //     }
-    //     return res;
-    // }
-
-    /**
-     *  前缀和+哈稀表优化
-     */
-    int subarraySum(vector<int> &nums, int k) {
-        unordered_map<int, int> mp;
-        mp[0] = 1;
-        int count = 0;
-        int preSum = 0;
-        for (auto &i : nums) {
-            preSum += i;
-            if (mp.find(preSum - k) != mp.end()) count += mp[preSum - k];
-            ++mp[preSum];
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> hashmap;
+        vector<int> ans;
+        for (int i = 0; i < nums.size(); ++i) {
+            if (hashmap.find(target - nums[i]) != hashmap.end() && hashmap[target - nums[i]] != i) {
+                ans.push_back(hashmap[target - nums[i]]);
+                ans.push_back(i);
+                break;
+            }
+            hashmap[nums[i]] = i;
         }
-
-        return count;
+        return ans;
     }
 };
 
 int main() {
-    vector<int> nums{1, 1, 1};
+    vector<int> nums{2, 7, 11, 15};
+    int target = 9;
 
     Solution solution;
-    int k = solution.subarraySum(nums, 2);
+    vector<int> k = solution.twoSum(nums, target);
 
     return 0;
 }
