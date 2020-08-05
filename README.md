@@ -137,6 +137,7 @@
 * [调整数组顺序使奇数位于偶数前面(exchange)](./topic/CodingInterviews/exchange)
 * [数组中出现次数超过一半的数字(majorityElement)](./topic/CodingInterviews/majorityElement)
 * [和为 s 的两个数字(twoSum)](./topic/CodingInterviews/twoSum)
+* [从尾到头打印链表(reversePrint)](./topic/CodingInterviews/reversePrint)
 
 ### 程序员面试金典
 
