@@ -135,6 +135,7 @@
 * [替换空格(replaceSpace)](./topic/CodingInterviews/replaceSpace)
 * [打印从 1 到最大的 n 位数(printNumbers)](./topic/CodingInterviews/printNumbers)
 * [调整数组顺序使奇数位于偶数前面(exchange)](./topic/CodingInterviews/exchange)
+* [数组中出现次数超过一半的数字(majorityElement)](./topic/CodingInterviews/majorityElement)
 
 ### 程序员面试金典
 
