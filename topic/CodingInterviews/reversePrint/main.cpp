@@ -41,14 +41,29 @@ public:
     }
 };
 
-
 /**
- * 主函数未完成，链表未生成
+ * 创建单链表
  */
+class LinkedList {
+ public:
+    ListNode * createList(vector<int> nums) {
+        ListNode * head = new ListNode(nums[0]);
+        ListNode * p = head;
+        for (int node = 1; node < nums.size(); ++node) {
+            ListNode * pnode = new ListNode(nums[node]);
+            p->next = pnode;
+            p = pnode;
+        }
+        return head;
+    }
+};
+
 int main() {
-    vector<int> nums{1, 2, 3, 4};
+    vector<int> nums{1, 3, 2};
+    LinkedList linkedlist;
+    ListNode * head = linkedlist.createList(nums);
     Solution solution;
-    // vector<int> result = solution.reversePrint(nums);
+    vector<int> result = solution.reversePrint(head);
 
     return 0;
 }
