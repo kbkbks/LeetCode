@@ -65,9 +65,11 @@ class Solution {
         auto rootStatus = dfs(o);
         return max(rootStatus.selected, rootStatus.notSelected);
     }
-
 };
 
+/**
+ * 新的建树类
+ */
 class BiTree {
  public:
     void Delete(TreeNode *& node) {
@@ -80,51 +82,61 @@ class BiTree {
 
     TreeNode * creatTree(string nodeList) {
         // string格式化分割成vector<string>
-        queue<string> input;
+        vector<string> input;
         stringstream ss(nodeList);
         string tmp;
         while (getline(ss, tmp, ',')) {
-            input.push(tmp);
+            input.push_back(tmp);
         }
 
-        string node = input.front();
-        input.pop();
-        TreeNode * root;
-        if (node != "null") {
-            root = new TreeNode(stoi(node));
-            string nodeLeft = input.front();
-            input.pop();
-            string nodeRignt = input.front();
-            input.pop();
-            root->left = buildTree(nodeLeft, input);
-            root->right = buildTree(nodeRignt, input);
-        } else {
-            return nullptr;
-        }
-        return root;
+        return buildTree(input, 0);
     }
 
-    TreeNode * buildTree(string node, queue<string> &input) {
-        if (node != "null") {
-            TreeNode * newNode = new TreeNode(stoi(node));
-            string nodeLeft = input.front();
-            input.pop();
-            string nodeRignt = input.front();
-            input.pop();
-            newNode->left = buildTree(nodeLeft, input);
-            newNode->right = buildTree(nodeRignt, input);
-            return newNode;
-        } else {
+    TreeNode * buildTree(const vector<string> &input, int start) {
+        if (start > input.size() - 1 || input[start] == "null") {
             return nullptr;
         }
+
+        TreeNode * node = new TreeNode(stoi(input[start]));
+        int leftNode = start * 2 + 1;
+        int rightNode = start * 2 + 2;
+        node->left = buildTree(input, leftNode);
+        node->right = buildTree(input, rightNode);
+        return node;
+    }
+
+    // 层序遍历
+    vector<vector<int>> levelOrder(TreeNode * root) {
+        if (!root) {
+            return {};
+        }
+
+        vector<vector<int>> ans;
+        queue<TreeNode*> qu;
+        qu.push(root);
+        while (!qu.empty()) {
+            vector<int> tmpLevel;
+            int n = qu.size();
+            for (int i = 0; i < n; ++i) {
+                TreeNode * node = qu.front();
+                qu.pop();
+                tmpLevel.push_back(node->val);
+                if (node->left) qu.push(node->left);
+                if (node->right) qu.push(node->right);
+            }
+            ans.push_back(tmpLevel);
+        }
+
+        return ans;
     }
 };
 
 int main() {
     // string常规建树
-    string nodeList{"3,2,3,null,3,null,1,null,null,null,null"};
+    string nodeList{"3,2,3,null,3,null,1"};
     BiTree biTree;
     TreeNode * root = biTree.creatTree(nodeList);
+    vector<vector<int>> levelPrint = biTree.levelOrder(root);
 
     // 打家劫舍
     Solution solution;
