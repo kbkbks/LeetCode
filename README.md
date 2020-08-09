@@ -140,6 +140,7 @@
 * [和为 s 的两个数字(twoSum)](./topic/CodingInterviews/twoSum)
 * [从尾到头打印链表(reversePrint)](./topic/CodingInterviews/reversePrint)
 * [包含 min 函数的栈(MinStack)](./topic/CodingInterviews/MinStack)
+* [数组中重复的数字(findRepeatNumber)](./topic/CodingInterviews/findRepeatNumber)
 
 ### 程序员面试金典
 
