@@ -139,6 +139,7 @@
 * [数组中出现次数超过一半的数字(majorityElement)](./topic/CodingInterviews/majorityElement)
 * [和为 s 的两个数字(twoSum)](./topic/CodingInterviews/twoSum)
 * [从尾到头打印链表(reversePrint)](./topic/CodingInterviews/reversePrint)
+* [包含 min 函数的栈(MinStack)](./topic/CodingInterviews/MinStack)
 
 ### 程序员面试金典
 
