@@ -143,6 +143,7 @@
 * [数组中重复的数字(findRepeatNumber)](./topic/CodingInterviews/findRepeatNumber)
 * [第一个只出现一次的字符(firstUniqChar)](./topic/CodingInterviews/firstUniqChar)
 * [删除链表的节点(deleteNode)](./topic/CodingInterviews/deleteNode)
+* [链表中倒数第 k 个节点(getKthFromEnd)](./topic/CodingInterviews/getKthFromEnd)
 
 ### 程序员面试金典
 
