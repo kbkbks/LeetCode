@@ -98,6 +98,7 @@
 ### 链表
 
 * [反转链表(reverseList)](./topic/LinkedList/reverseList)
+* [合并两个排序的链表(mergeTwoLists)](./topic/LinkedList/mergeTwoLists)
 
 ### 广度优先搜索
 
