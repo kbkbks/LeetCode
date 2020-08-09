@@ -141,6 +141,7 @@
 * [从尾到头打印链表(reversePrint)](./topic/CodingInterviews/reversePrint)
 * [包含 min 函数的栈(MinStack)](./topic/CodingInterviews/MinStack)
 * [数组中重复的数字(findRepeatNumber)](./topic/CodingInterviews/findRepeatNumber)
+* [第一个只出现一次的字符(firstUniqChar)](./topic/CodingInterviews/firstUniqChar)
 
 ### 程序员面试金典
 
