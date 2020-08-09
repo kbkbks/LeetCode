@@ -49,14 +49,9 @@ class LinkedList {
 };
 
 int main() {
-    vector<int> nums1{4, 1, 8, 4, 5};
-    vector<int> nums2{5, 0, 1, 8, 4, 5};
-    LinkedList linkedlist1;
-    ListNode * l1 = linkedlist1.createList(nums1);
-    LinkedList linkedlist2;
-    ListNode * l2 = linkedlist2.createList(nums2);
-    Solution solution;
-    ListNode * result = solution.getIntersectionNode(l1, l2);
+    /**
+     * 尚未创建有公共节点的双链表
+     */
 
     return 0;
 }
