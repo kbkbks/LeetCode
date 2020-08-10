@@ -147,6 +147,7 @@
 * [第一个只出现一次的字符(firstUniqChar)](./topic/CodingInterviews/firstUniqChar)
 * [删除链表的节点(deleteNode)](./topic/CodingInterviews/deleteNode)
 * [链表中倒数第 k 个节点(getKthFromEnd)](./topic/CodingInterviews/getKthFromEnd)
+* [二叉搜索树的第 k 大节点(kthLargest)](./topic/CodingInterviews/kthLargest)
 
 ### 程序员面试金典
 
