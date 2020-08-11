@@ -149,6 +149,7 @@
 * [链表中倒数第 k 个节点(getKthFromEnd)](./topic/CodingInterviews/getKthFromEnd)
 * [二叉搜索树的第 k 大节点(kthLargest)](./topic/CodingInterviews/kthLargest)
 * [从上到下打印二叉树 III(levelOrderIII)](./topic/CodingInterviews/levelOrderIII)
+* [斐波那契数列(fib)](./topic/CodingInterviews/fib)
 
 ### 程序员面试金典
 
