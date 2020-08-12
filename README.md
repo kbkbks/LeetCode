@@ -66,6 +66,7 @@
 * [搜索插入位置(searchInsert)](./topic/BinarySearch/searchInsert)
 * [二分查找(search)](./topic/BinarySearch/search)
 * [寻找旋转排序数组中的最小值(findMin)](./topic/BinarySearch/findMin)
+* [寻找旋转排序数组中的最小值II(findMin2)](./topic/BinarySearch/findMin2)
 
 ### 设计
 
