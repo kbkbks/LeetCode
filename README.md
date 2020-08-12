@@ -65,6 +65,7 @@
 * [转变数组后最接近目标值的数组和(findBestValue)_未完成_](./topic/BinarySearch/findBestValue)
 * [搜索插入位置(searchInsert)](./topic/BinarySearch/searchInsert)
 * [二分查找(search)](./topic/BinarySearch/search)
+* [寻找旋转排序数组中的最小值(findMin)](./topic/BinarySearch/findMin)
 
 ### 设计
 
