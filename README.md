@@ -117,6 +117,7 @@
 * [二叉树中的最大路径和(maxPathSum)_未完成_](./topic/DepthFirstSearch/maxPathSum)
 * [路径总和(hasPathSum)](./topic/DepthFirstSearch/hasPathSum)
 * [打家劫舍III(robIII)](./topic/DepthFirstSearch/robIII)
+* [单词搜索(exist)](./topic/DepthFirstSearch/exist)
 
 ### 并查集
 
