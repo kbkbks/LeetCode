@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Math/myPow/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Math/myPow/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Math/myPow/CMakeFiles/edit_cache.dir
