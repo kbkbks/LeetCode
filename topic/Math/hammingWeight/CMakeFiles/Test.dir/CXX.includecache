@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/Math/hammingWeight/main.cpp
+iostream
+-
+vector
+-
+string
+-
+unordered_map
+-
+

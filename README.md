@@ -128,6 +128,7 @@
 
 * [回文数(isPalindrome)](./topic/Math/isPalindrome)
 * [整数拆分(integerBreak)](./topic/Math/integerBreak)
+* [位1的个数(hammingWeight)](./topic/Math/hammingWeight)
 
 ### 节日礼弹
 
