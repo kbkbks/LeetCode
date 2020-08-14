@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Stack/isValid/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Stack/isValid/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Stack/isValid/CMakeFiles/edit_cache.dir
