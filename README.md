@@ -130,6 +130,7 @@
 * [整数拆分(integerBreak)](./topic/Math/integerBreak)
 * [位1的个数(hammingWeight)](./topic/Math/hammingWeight)
 * [Pow(x, n)(myPow)](./topic/Math/myPow)
+* [圆圈中最后剩下的数字(lastRemaining)](./topic/Math/lastRemaining)
 
 ### 节日礼弹
 
