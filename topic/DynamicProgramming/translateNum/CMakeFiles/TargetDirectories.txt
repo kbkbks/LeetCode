@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/translateNum/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/translateNum/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/DynamicProgramming/translateNum/CMakeFiles/edit_cache.dir
