@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/Bit/singleNumbers/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+unordered_map
+-
+map
+-
+algorithm
+-
+unordered_set
+-
+sstream
+-
+

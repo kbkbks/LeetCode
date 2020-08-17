@@ -134,6 +134,10 @@
 * [Pow(x, n)(myPow)](./topic/Math/myPow)
 * [圆圈中最后剩下的数字(lastRemaining)](./topic/Math/lastRemaining)
 
+### 位运算
+
+* [数组中数字出现的次数(singleNumbers)](./topic/Bit/singleNumbers)
+
 ### 节日礼弹
 
 * [拥有最多糖果的孩子(kidsWithCandies)](./topic/HolidaySalute/kidsWithCandies)
