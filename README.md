@@ -89,6 +89,7 @@
 
 * [对称二叉树(isSymmetric)](./topic/Recursion/isSymmetric)
 * [不同的二叉搜索树-II(generateTrees)](./topic/Recursion/generateTrees)
+* [平衡二叉树(isBalanced)](./topic/Recursion/isBalanced)
 
 ### 数组
 
