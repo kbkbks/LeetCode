@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/DepthFirstSearch/permutation/main.cpp
+bits/stdc++.h
+-
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+unordered_map
+-
+map
+-
+algorithm
+-
+sstream
+-
+stack
+-
+

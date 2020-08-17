@@ -120,6 +120,7 @@
 * [路径总和(hasPathSum)](./topic/DepthFirstSearch/hasPathSum)
 * [打家劫舍III(robIII)](./topic/DepthFirstSearch/robIII)
 * [单词搜索(exist)](./topic/DepthFirstSearch/exist)
+* [字符串的排列(permutation)](./topic/DepthFirstSearch/permutation)
 
 ### 并查集
 

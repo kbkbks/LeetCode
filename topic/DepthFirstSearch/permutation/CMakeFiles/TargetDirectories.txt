@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/DepthFirstSearch/permutation/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/DepthFirstSearch/permutation/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/DepthFirstSearch/permutation/CMakeFiles/edit_cache.dir
