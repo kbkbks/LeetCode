@@ -85,6 +85,7 @@
 * [数组中的第K个最大元素(findKthLargest)](./topic/Heap/findKthLargest)
 * [有序矩阵中第k小的元素(kthSmallest)](./topic/Heap/kthSmallest)
 * [合并K个排序链表(mergeKLists)](./topic/Heap/mergeKLists)
+* [最小的k个数(getLeastNumbers)](./topic/Heap/getLeastNumbers)
 
 ### 递归
 
