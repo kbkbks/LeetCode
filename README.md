@@ -73,6 +73,7 @@
 ### 设计
 
 * [LRU缓存机制(LRUCache)](./topic/Design/LRUCache)
+* [二叉树的序列化与反序列化(serializeAndDeserialize)_未完成_](./topic/DepthFirstSearch/serializeAndDeserialize)
 
 ### 栈
 
@@ -117,7 +118,6 @@
 
 ### 深度优先探索
 
-* [二叉树的序列化与反序列化(serializeAndDeserialize)_未完成_](./topic/DepthFirstSearch/serializeAndDeserialize)
 * [从先序遍历还原二叉树(recoverFromPreorder)_未完成_](./topic/DepthFirstSearch/recoverFromPreorder)
 * [二叉树中的最大路径和(maxPathSum)_未完成_](./topic/DepthFirstSearch/maxPathSum)
 * [路径总和(hasPathSum)](./topic/DepthFirstSearch/hasPathSum)
