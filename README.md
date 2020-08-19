@@ -172,6 +172,7 @@
 * [机器人的运动范围(movingCount)](./topic/CodingInterviews/movingCount)
 * [左旋转字符串(reverseLeftWords)](./topic/CodingInterviews/reverseLeftWords)
 * [n个骰子的点数(twoSumII)](./topic/CodingInterviews/twoSumII)
+* [扑克牌中的顺子(isStraight)](./topic/CodingInterviews/isStraight)
 
 ### 程序员面试金典
 
