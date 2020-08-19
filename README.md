@@ -73,7 +73,7 @@
 ### 设计
 
 * [LRU缓存机制(LRUCache)](./topic/Design/LRUCache)
-* [二叉树的序列化与反序列化(serializeAndDeserialize)_未完成_](./topic/DepthFirstSearch/serializeAndDeserialize)
+* [二叉树的序列化与反序列化(serializeAndDeserialize)](./topic/DepthFirstSearch/serializeAndDeserialize)
 
 ### 栈
 
