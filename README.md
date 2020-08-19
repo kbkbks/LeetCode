@@ -40,6 +40,7 @@
 * [除数博弈(divisorGame)](./topic/DynamicProgramming/divisorGame)
 * [最小路径和(minPathSum)](./topic/DynamicProgramming/minPathSum)
 * [把数字翻译成字符串(translateNum)](./topic/DynamicProgramming/translateNum)
+* [买卖股票的最佳时机(maxProfit)](./topic/DynamicProgramming/maxProfit)
 
 ### 字符串
 
