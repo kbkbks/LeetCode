@@ -170,6 +170,7 @@
 * [礼物的最大价值(maxValue)](./topic/CodingInterviews/maxValue)
 * [机器人的运动范围(movingCount)](./topic/CodingInterviews/movingCount)
 * [左旋转字符串(reverseLeftWords)](./topic/CodingInterviews/reverseLeftWords)
+* [n个骰子的点数(twoSumII)](./topic/CodingInterviews/twoSumII)
 
 ### 程序员面试金典
 
