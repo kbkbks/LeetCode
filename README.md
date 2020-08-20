@@ -174,6 +174,7 @@
 * [左旋转字符串(reverseLeftWords)](./topic/CodingInterviews/reverseLeftWords)
 * [n个骰子的点数(twoSumII)](./topic/CodingInterviews/twoSumII)
 * [扑克牌中的顺子(isStraight)](./topic/CodingInterviews/isStraight)
+* [把数组排成最小的数(minNumber)](./topic/CodingInterviews/minNumber)
 
 ### 程序员面试金典
 
