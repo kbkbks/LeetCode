@@ -125,6 +125,7 @@
 * [打家劫舍III(robIII)](./topic/DepthFirstSearch/robIII)
 * [单词搜索(exist)](./topic/DepthFirstSearch/exist)
 * [字符串的排列(permutation)](./topic/DepthFirstSearch/permutation)
+* [路径总和 II(pathSum)](./topic/DepthFirstSearch/pathSum)
 
 ### 并查集
 
