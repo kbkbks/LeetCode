@@ -26,6 +26,8 @@ class Solution {
                 continue;
             }
 
+            if (nums[i + 1] == nums[i]) return false;
+
             if (nums[i + 1] != nums[i] + 1) {
                 while (!flag.empty()) {
                     flag.pop_back();
@@ -38,6 +40,22 @@ class Solution {
 
         return true;
     }
+
+    // /**
+    //  * 基于HashSet方法
+    //  */
+    // bool isStraight(vector<int>& nums) {
+    //     unordered_set<int> hashset;
+    //     int maxValue = 0, minValue = 14;
+    //     for (int i = 0; i < nums.size(); ++i) {
+    //         if (nums[i] == 0) continue;
+    //         maxValue = max(maxValue, nums[i]);
+    //         minValue = min(minValue, nums[i]);
+    //         if (hashset.count(nums[i])) return false;
+    //         hashset.insert(nums[i]);
+    //     }
+    //     return maxValue - minValue < 5;
+    // }
 };
 
 int main() {
