@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/Math/nthUglyNumber/main.cpp
+bits/stdc++.h
+-
+iostream
+-
+vector
+-
+string
+-
+unordered_map
+-
+

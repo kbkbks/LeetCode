@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Math/nthUglyNumber/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Math/nthUglyNumber/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Math/nthUglyNumber/CMakeFiles/edit_cache.dir
