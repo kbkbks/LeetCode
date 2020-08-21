@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Math/isUgly/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Math/isUgly/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Math/isUgly/CMakeFiles/edit_cache.dir
