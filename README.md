@@ -180,6 +180,7 @@
 * [把数组排成最小的数(minNumber)](./topic/CodingInterviews/minNumber)
 * [不用加减乘除做加法(add)](./topic/CodingInterviews/add)
 * [队列的最大值(MaxQueue)](./topic/CodingInterviews/MaxQueue)
+* [构建乘积数组(constructArr)](./topic/CodingInterviews/constructArr)
 
 ### 程序员面试金典
 

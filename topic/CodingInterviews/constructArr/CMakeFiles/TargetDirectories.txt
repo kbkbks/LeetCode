@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/CodingInterviews/constructArr/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/CodingInterviews/constructArr/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/CodingInterviews/constructArr/CMakeFiles/edit_cache.dir
