@@ -140,6 +140,7 @@
 * [圆圈中最后剩下的数字(lastRemaining)](./topic/Math/lastRemaining)
 * [丑数II(nthUglyNumber)](./topic/Math/nthUglyNumber)
 * [丑数(isUgly)](./topic/Math/isUgly)
+* [数字1的个数(countDigitOne)](./topic/Math/countDigitOne)
 
 ### 位运算
 
