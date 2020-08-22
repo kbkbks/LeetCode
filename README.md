@@ -60,6 +60,7 @@
 
 * [最小覆盖子串(minWindow)](./topic/SlidingWindow/minWindow)
 * [无重复字符的最长子串(lengthOfLongestSubstring)](./topic/SlidingWindow/lengthOfLongestSubstring)
+* [滑动窗口最大值(maxSlidingWindow)](./topic/SlidingWindow/maxSlidingWindow)
 
 ### 二分查找
 
