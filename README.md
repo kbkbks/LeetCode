@@ -51,6 +51,7 @@
 * [判断子序列(isSubsequence)](./topic/String/isSubsequence)
 * [分割平衡字符串(balancedStringSplit)](./topic/String/balancedStringSplit)
 * [字符串相加(addStrings)](./topic/String/addStrings)
+* [翻转字符串里的单词(reverseWords)](./topic/String/reverseWords)
 
 ### 前缀和
 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/String/reverseWords/main.cpp
+bits/stdc++.h
+-
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+algorithm
+-
+
