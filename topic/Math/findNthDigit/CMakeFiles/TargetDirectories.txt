@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/Math/findNthDigit/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/Math/findNthDigit/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/Math/findNthDigit/CMakeFiles/edit_cache.dir

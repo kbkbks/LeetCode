@@ -144,6 +144,7 @@
 * [丑数II(nthUglyNumber)](./topic/Math/nthUglyNumber)
 * [丑数(isUgly)](./topic/Math/isUgly)
 * [数字1的个数(countDigitOne)](./topic/Math/countDigitOne)
+* [第N个数字(findNthDigit)](./topic/Math/findNthDigit)
 
 ### 位运算
 
