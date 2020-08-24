@@ -85,6 +85,7 @@
 * [柱状图中最大的矩形(largestRectangleArea)_未完成_](./topic/Stack/largestRectangleArea)
 * [每日温度(dailyTemperatures)_未完成_](./topic/Stack/dailyTemperatures)
 * [有效的括号(isValid)](./topic/Stack/isValid)
+* [验证栈序列(validateStackSequences)](./topic/Stack/validateStackSequences)
 
 ### 堆
 

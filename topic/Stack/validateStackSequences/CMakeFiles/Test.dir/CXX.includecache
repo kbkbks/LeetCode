@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hanxinyan/LeetCode/topic/Stack/validateStackSequences/main.cpp
+iostream
+-
+vector
+-
+queue
+-
+string
+-
+unordered_map
+-
+stack
+-
+algorithm
+-
+
