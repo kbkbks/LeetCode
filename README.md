@@ -188,6 +188,7 @@
 * [队列的最大值(MaxQueue)](./topic/CodingInterviews/MaxQueue)
 * [构建乘积数组(constructArr)](./topic/CodingInterviews/constructArr)
 * [0～n-1中缺失的数字(missingNumber)](./topic/CodingInterviews/missingNumber)
+* [数组中数字出现的次数 II(singleNumber)](./topic/CodingInterviews/singleNumber)
 
 ### 程序员面试金典
 
