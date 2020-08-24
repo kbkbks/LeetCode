@@ -189,6 +189,7 @@
 * [构建乘积数组(constructArr)](./topic/CodingInterviews/constructArr)
 * [0～n-1中缺失的数字(missingNumber)](./topic/CodingInterviews/missingNumber)
 * [数组中数字出现的次数 II(singleNumber)](./topic/CodingInterviews/singleNumber)
+* [表示数值的字符串(isNumber)](./topic/CodingInterviews/isNumber)
 
 ### 程序员面试金典
 
