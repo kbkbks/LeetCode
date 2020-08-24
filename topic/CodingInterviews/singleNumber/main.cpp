@@ -48,6 +48,10 @@ class Solution {
     //     }
     //     return res;
     // }
+
+    /**
+     * 自动机方法（未写）
+     */
 };
 
 int main() {

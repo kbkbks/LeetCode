@@ -197,3 +197,8 @@
 * [跳水板(divingBoard)](./topic/CrackingTheCodingInterview/divingBoard)
 * [恢复空格(respace)](./topic/CrackingTheCodingInterview/respace)
 * [魔术索引(findMagicIndex)](./topic/CrackingTheCodingInterview/findMagicIndex)
+
+### 自动机
+
+* [字符串转换整数 (atoi)(myAtoi)](./topic/String/myAtoi)
+* [数组中数字出现的次数 II(singleNumber)](./topic/CodingInterviews/singleNumber)

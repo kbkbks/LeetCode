@@ -12,6 +12,9 @@ using namespace std;
 
 class Solution {
  public:
+    /**
+     * 常规方法
+     */
     int myAtoi(string str) {
         int res = 0;
         int i = 0;
@@ -35,6 +38,10 @@ class Solution {
         }
         return (flag > 0) ? res : -res;
     }
+
+    /**
+     * 自动机（未写）
+     */
 };
 
 int main() {
