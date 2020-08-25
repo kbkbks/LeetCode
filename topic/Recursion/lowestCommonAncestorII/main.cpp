@@ -32,13 +32,26 @@ class Solution {
     /**
      * 通用方法（适用所有二叉树）
      */
+    // TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+    //     if (!root || root == p || root == q) return root;
+    //     TreeNode * L = lowestCommonAncestor(root->left, p, q);
+    //     TreeNode * R = lowestCommonAncestor(root->right, p, q);
+    //     if (!L) return R;
+    //     if (!R) return L;
+    //     return root;
+    // }
+
+    /**
+     * 二叉搜索树性质法
+     */
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-       if (!root || root->val == p->val || root->val == q->val) return root;
-       TreeNode * L = lowestCommonAncestor(root->left, p, q);
-       TreeNode * R = lowestCommonAncestor(root->right, p, q);
-       if (!L) return R;
-       if (!R) return L;
-       return root;
+        if (p->val > root->val && q->val > root->val) {
+            return lowestCommonAncestor(root->right, p, q);
+        } else if (p->val < root->val && q->val < root->val) {
+            return lowestCommonAncestor(root->left, p, q);
+        } else {
+            return root;
+        }
     }
 };
 
@@ -79,8 +92,8 @@ class Codec {
 };
 
 int main() {
-    string nodeList{"3,5,1,6,2,0,8,null,null,7,4"};
-    TreeNode * p = new TreeNode(6);
+    string nodeList{"6,2,8,0,4,7,9,null,null,3,5"};
+    TreeNode * p = new TreeNode(2);
     TreeNode * q = new TreeNode(8);
     Codec codec;
     TreeNode * root = codec.deserialize(nodeList);
