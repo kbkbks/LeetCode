@@ -21,6 +21,7 @@
 * [将有序数组转化为二叉搜索树(sortedArrayToBST)](./topic/BinaryTree/sortedArrayToBST)
 * [将二叉搜索树变平衡(banlanceBST)](./topic/BinaryTree/balanceBST)
 * [翻转二叉树(invertTree)](./topic/BinaryTree/invertTree)
+* [将二叉搜索树转化为排序的双向链表(treeToDoublyList)](./topic/BinaryTree/treeToDoublyList)
 
 ### 动态规划
 
