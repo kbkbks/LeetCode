@@ -195,6 +195,7 @@
 * [数组中数字出现的次数 II(singleNumber)](./topic/CodingInterviews/singleNumber)
 * [表示数值的字符串(isNumber)](./topic/CodingInterviews/isNumber)
 * [二叉搜索树的后序遍历序列(verifyPostorder)](./topic/CodingInterviews/verifyPostorder)
+* [树的子结构(isSubStructure)](./topic/CodingInterviews/isSubStructure)
 
 ### 程序员面试金典
 
