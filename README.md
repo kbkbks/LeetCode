@@ -30,7 +30,7 @@
 * [打家劫舍(rob)](./topic/DynamicProgramming/rob)
 * [新21点(new21Game)](./topic/DynamicProgramming/new21Game)
 * [爬楼梯(climbStairs)](./topic/DynamicProgramming/climbStairs)
-* [正则表达式匹配(isMatch)_未完成_](./topic/DynamicProgramming/isMatch)
+* [正则表达式匹配(isMatch)](./topic/DynamicProgramming/isMatch)
 * [最长重复子数组(findLength)](./topic/DynamicProgramming/findLength)
 * [最长有效括号(longestValidParentheses)_未完成_](./topic/DynamicProgramming/longestValidParentheses)
 * [通配符匹配(isMatch2)_未完成_](./topic/DynamicProgramming/isMatch2)
