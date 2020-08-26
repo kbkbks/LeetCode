@@ -95,6 +95,7 @@
 * [有序矩阵中第k小的元素(kthSmallest)](./topic/Heap/kthSmallest)
 * [合并K个排序链表(mergeKLists)](./topic/Heap/mergeKLists)
 * [最小的k个数(getLeastNumbers)](./topic/Heap/getLeastNumbers)
+* [数据流的中位数(MedianFinder)](./topic/Heap/MedianFinder)
 
 ### 递归
 
