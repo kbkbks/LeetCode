@@ -1,6 +1,7 @@
 /*
 # Copyright (c) 2020 Xinyan Han. All rights reserved.
 */
+#include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -9,6 +10,32 @@ using namespace std;
 
 class Solution {
  public:
+    /**
+     * Hash方法
+     */
+    int longestConsecutive(vector<int>& nums) {
+        unordered_set<int> st;
+        for (const int & num : nums) {
+            st.insert(num);
+        }
+
+        int longestCnt = 0;
+        for (const int & num : st) {
+            if (!st.count(num - 1)) {
+                int currentNum = num;
+                int currentCnt = 1;
+                while (st.count(currentNum + 1)) {
+                    currentCnt++;
+                    currentNum++;
+                }
+                longestCnt = max(longestCnt, currentCnt);
+            }
+        }
+
+        return longestCnt;
+    }
+
+
     // // 并查集
     // int find(int x) {
     //     return a.count(x) ? a[x] = find(a[x]) : x;
