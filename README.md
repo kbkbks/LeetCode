@@ -5,7 +5,6 @@
 ### 哈希映射
 
 * [两数之和(twoSum)](./topic/HashMap/twoSum)
-* [和可被K整除的子数组(subarrayDivByK)](./topic/HashMap/subarrayDivByK)
 * [最长连续序列(longestConsecutive)](./topic/HashMap/longestConsecutive)
 * [缺失的第一个正数(firstMissingPositive)_未完成_](./topic/HashMap/firstMissingPositive)
 * [两个数组的交集II(intersect)](./topic/HashMap/intersect)
@@ -57,6 +56,7 @@
 ### 前缀和
 
 * [和为K的子数组(subarraySum)](./topic/PrefixSum/subarraySum)
+* [和可被K整除的子数组(subarrayDivByK)](./topic/HashMap/subarrayDivByK)
 * [每个元音包含偶数次的最长子字符串(findTheLongestSubstring)](./topic/PrefixSum/findTheLongestSubstring)
 
 ### 滑动窗口
