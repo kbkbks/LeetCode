@@ -126,6 +126,7 @@
 * [单词接龙II(findLadders)_未完成_](./topic/BreadthFirstSearch/findLadders)
 * [判断二分图(isBipartite)](./topic/BreadthFirstSearch/isBipartite)
 * [二叉树的最大深度(maxDepth)](./topic/BreadthFirstSearch/maxDepth)
+* [岛屿数量(numIslands)](./topic/DepthFirstSearch/numIslands)
 
 ### 深度优先探索
 
@@ -136,6 +137,7 @@
 * [单词搜索(exist)](./topic/DepthFirstSearch/exist)
 * [字符串的排列(permutation)](./topic/DepthFirstSearch/permutation)
 * [路径总和 II(pathSum)](./topic/DepthFirstSearch/pathSum)
+* [岛屿数量(numIslands)](./topic/DepthFirstSearch/numIslands)
 
 ### 并查集
 
