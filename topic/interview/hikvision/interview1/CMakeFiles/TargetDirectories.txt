@@ -1,0 +1,3 @@
+/home/hanxinyan/LeetCode/topic/interview/hikvision/interview1/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/LeetCode/topic/interview/hikvision/interview1/CMakeFiles/Test.dir
+/home/hanxinyan/LeetCode/topic/interview/hikvision/interview1/CMakeFiles/edit_cache.dir
