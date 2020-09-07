@@ -1,0 +1,3 @@
+/home/hanxinyan/桌面/hikvision/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/桌面/hikvision/CMakeFiles/Test.dir
+/home/hanxinyan/桌面/hikvision/CMakeFiles/edit_cache.dir
