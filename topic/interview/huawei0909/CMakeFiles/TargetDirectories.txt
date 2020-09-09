@@ -1,0 +1,3 @@
+/home/hanxinyan/桌面/huawei0909/CMakeFiles/rebuild_cache.dir
+/home/hanxinyan/桌面/huawei0909/CMakeFiles/Test.dir
+/home/hanxinyan/桌面/huawei0909/CMakeFiles/edit_cache.dir
