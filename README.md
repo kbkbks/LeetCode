@@ -212,6 +212,7 @@
 * [跳水板(divingBoard)](./topic/CrackingTheCodingInterview/divingBoard)
 * [恢复空格(respace)](./topic/CrackingTheCodingInterview/respace)
 * [魔术索引(findMagicIndex)](./topic/CrackingTheCodingInterview/findMagicIndex)
+* [汉诺塔问题(hanota)](./topic/CrackingTheCodingInterview/hanota)
 
 ### 自动机
 
