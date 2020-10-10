@@ -13,12 +13,12 @@ struct People {
     int candy;
     int color;
     People(int x, int y) : candy(x), color(y) {}
-    People() : candy(0), color(0) {};
+    People() : candy(0), color(0) {}
 };
 
 int main() {
     int num = 6;
-    vector<vector<int>> input{
+    vector<vector<int>> input = {
         {2, 2},
         {2, 1},
         {3, 2},
@@ -27,14 +27,14 @@ int main() {
         {7, 2}
     };
 
-    // cin >> num;
+    // Input
     vector<People> array;
     for (int i = 0; i < num; ++i) {
-        int a, b;
-        a = input[i][0], b= input[i][1];
+        int a = input[i][0], b = input[i][1];
         array.push_back(People(a, b));
     }
-    // index
+
+    // Index
     unordered_map<int, int> idx1;
     unordered_map<int, int> idx2;
     for (int i = 0; i < array.size(); ++i) {
@@ -43,10 +43,13 @@ int main() {
     }
 
     vector<int> arr1, arr2;
-    for (int i = 0; i < num; ++i) {
+    for (int i = 0; i < array.size(); ++i) {
         if (array[i].color == 1) arr1.push_back(array[i].candy);
         else arr2.push_back(array[i].candy);
     }
+
+    sort(arr1.begin(), arr1.end());
+    sort(arr2.begin(), arr2.end());
 
     vector<int> res1;
     int sum1 = 0;
@@ -66,31 +69,35 @@ int main() {
         }
     }
 
-    if (sum2 > sum1) {
-        vector<int> ans{idx2[res2[0]], idx2[res2[1]], idx2[res2[2]]};
-        sort(ans.begin(), ans.end());
-        cout << ans[0] << " " << ans[1] << " " << ans[2] << endl;
-        cout << 2 << endl;
-        cout << sum2 << endl;
-    } else if (sum1 > sum2) {
-        vector<int> ans{idx1[res1[0]], idx1[res1[1]], idx1[res1[2]]};
-        sort(ans.begin(), ans.end());
-        cout << ans[0] << " " << ans[1] << " " << ans[2] << endl;
-        cout << 1 << endl;
-        cout << sum1 << endl;
+    if (sum1 == 0 && sum2 == 0) {
+        cout << "null" << endl;
     } else {
-        vector<int> ans1{idx1[res1[0]], idx1[res1[1]], idx1[res1[2]]};
-        vector<int> ans2{idx2[res2[0]], idx2[res2[1]], idx2[res2[2]]};
-        sort(ans1.begin(), ans1.end());
-        sort(ans2.begin(), ans2.end());
-        if (ans2[0] < ans1[0]) {
-            cout << ans2[0] << " " << ans2[1] << " " << ans2[2] << endl;
-            cout << 2 << endl;
-            cout << sum2 << endl;            
-        } else {
-            cout << ans1[0] << " " << ans1[1] << " " << ans1[2] << endl;
+        if (sum1 > sum2) {
+            vector<int> ans{idx1[res1[0]], idx1[res1[1]], idx1[res1[2]]};
+            sort(ans.begin(), ans.end());
+            cout << ans[0] << " " << ans[1] << " " << ans[2] << endl;
             cout << 1 << endl;
-            cout << sum1 << endl;            
+            cout << sum1 << endl;
+        } else if (sum1 < sum2) {
+            vector<int> ans{idx2[res2[0]], idx2[res2[1]], idx2[res2[2]]};
+            sort(ans.begin(), ans.end());
+            cout << ans[0] << " " << ans[1] << " " << ans[2] << endl;
+            cout << 2 << endl;
+            cout << sum2 << endl;
+        } else if (sum1 == sum2) {
+            vector<int> ans1{idx1[res1[0]], idx1[res1[1]], idx1[res1[2]]};
+            vector<int> ans2{idx2[res2[0]], idx2[res2[1]], idx2[res2[2]]};
+            sort(ans1.begin(), ans1.end());
+            sort(ans2.begin(), ans2.end());
+            if (ans1[0] + ans1[1] + ans1[2] < ans2[0] + ans2[1] + ans2[2]) {
+                cout << ans1[0] << " " << ans1[1] << " " << ans1[2] << endl;
+                cout << 1 << endl;
+                cout << sum1 << endl;
+            } else {
+                cout << ans2[0] << " " << ans2[1] << " " << ans2[2] << endl;
+                cout << 2 << endl;
+                cout << sum2 << endl;
+            }
         }
     }
 
