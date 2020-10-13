@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hanxinyan/桌面/huawei/main.cpp" "/home/hanxinyan/桌面/huawei/CMakeFiles/Test.dir/main.cpp.o"
+  "/home/hanxinyan/LeetCode/topic/interview/huawei0902V2/main.cpp" "/home/hanxinyan/LeetCode/topic/interview/huawei0902V2/CMakeFiles/Test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
